@@ -13,6 +13,7 @@
 - Bugfix:           The parser was sometimes applied twice to filenames.
 - Bugfix:           Tle2Orbit: Fixed bug when first record in file is used.
 - Bugfix:           GnssParametrizationLeoDynamicOrbits: Fixed bug in parallel processing.
+- Bugfix:           Parallel: changed MPI_UNSIGNED to MPI_UNSIGNED_LONG_LONG.
 - Other:            NetCDF: enable to read multidimensional variables to store in muliple columns.
 - Other:            Changed ftp.tugraz.at/outgoing/ITSG to ftp.tugraz.at/pub/ITSG.
 - Other:            ModelEquilibriumTide: Taking into account spatially varying density.
